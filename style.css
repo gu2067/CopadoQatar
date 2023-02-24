@@ -1,0 +1,74 @@
+body{
+    background-color: #b51c47;
+    text-align: center;
+    color:white;
+    margin: 0;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 50px ;
+    
+    
+
+}
+img{
+    width: 50%;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+}
+.listadegrupos{
+    display: flex;
+    justify-content: center;
+   
+}
+h2{
+    background-color:rgba(139, 0, 0, 0.312);
+    padding:5px ;
+    width: 100%;
+    font-size:35px ;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.grupos li{
+    font-size: 18px;
+}
+#video{
+    margin-top: 20px;
+}
+.menuPrincipal{
+    list-style: none;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    background-color: darkred;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+    .link a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+    .lg{
+    display: flex;
+    }
+    h4{
+       width: 100%; 
+       text-align: right;
+       margin-right: 20px;
+    }
